@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const CardProfile = styled.div`
-  /* width: 420px; */
+  width: 420px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  /* border-radius: 2px;
-  border: 1px solid grey; */
+  border-radius: 2px;
+  border: 1px solid grey;
 `;
 
 export const Photo = styled.img`

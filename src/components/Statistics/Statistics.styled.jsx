@@ -1,6 +1,15 @@
 import styled from 'styled-components';
 
+export const StaticsWrap = styled.div`
+  width: 440px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
 export const Title = styled.h2`
+  margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 
@@ -22,6 +31,7 @@ export const StatisticsItem = styled.li`
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+  margin-bottom: 5px;
 `;
 export const Label = styled.span`
   display: block;

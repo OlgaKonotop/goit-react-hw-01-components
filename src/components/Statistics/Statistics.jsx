@@ -5,10 +5,11 @@ import {
   Title,
   StatisticsItem,
   Percentage,
+  StaticsWrap,
 } from './Statistics.styled';
 export const Statistics = ({ stats, title }) => {
   return (
-    <>
+    <StaticsWrap>
       {title && <Title>{title}</Title>}
       <StatisticsWrap>
         {stats.map(({ label, percentage, id }) => (
@@ -18,7 +19,7 @@ export const Statistics = ({ stats, title }) => {
           </StatisticsItem>
         ))}
       </StatisticsWrap>
-    </>
+    </StaticsWrap>
   );
 };
 
