@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StaticsWrap = styled.div`
   width: 440px;
   border-radius: 2px;
-  border: 1px solid grey;
+  border: 1px solid rgba(24, 86, 48, 0.12);
   margin-left: auto;
   margin-right: auto;
 `;
@@ -26,7 +26,7 @@ export const StatisticsWrap = styled.ul`
 
 export const StatisticsItem = styled.li`
   width: 83px;
-  border: 1px solid #7b7b74;
+  border: 2px solid green;
   border-radius: 2px;
   padding-top: 5px;
   padding-bottom: 5px;

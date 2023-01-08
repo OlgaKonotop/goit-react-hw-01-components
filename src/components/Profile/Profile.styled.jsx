@@ -6,7 +6,7 @@ export const CardProfile = styled.div`
   margin-left: auto;
   margin-right: auto;
   border-radius: 2px;
-  border: 1px solid grey;
+  border: 1px solid rgba(14, 129, 58, 0.12);
 `;
 
 export const Photo = styled.img`
@@ -26,6 +26,7 @@ export const Username = styled.p`
   margin-bottom: 10px;
   text-align: center;
   font-weight: 900;
+  color: green;
 `;
 export const Tag = styled.p`
   font-size: 16px;
@@ -47,7 +48,7 @@ export const StatsList = styled.ul`
   align-items: center;
 `;
 export const StatsItem = styled.li`
-  border: 1px solid #7b7b74;
+  border: 2px solid green;
   border-radius: 2px;
   width: 140px;
   padding-top: 5px;
