@@ -7,11 +7,17 @@ import styled from 'styled-components';
 // `;
 
 export const Online = styled.span`
-  color: green;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
   margin-right: 20px;
 `;
 export const Offline = styled.span`
-  color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
   margin-right: 20px;
 `;
 

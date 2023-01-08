@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const Title = styled.h2`
-  margin: 16px;
-  margin-left: 40px;
+  margin-bottom: 10px;
   text-align: center;
 
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
 `;
 
@@ -28,8 +27,8 @@ export const Label = styled.span`
   display: block;
   text-align: center;
   margin-bottom: 5px;
+  font-size: 12px;
 `;
-// export const Percentage = styled.span`
-//   /* display: block;
-//   text-align: center; */
-// `;
+export const Percentage = styled.span`
+  font-size: 12px;
+`;

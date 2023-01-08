@@ -13,7 +13,9 @@ export const Table = styled.table`
 export const Thead = styled.th`
   width: 140px;
   padding: 5px;
+  font-size: 12px;
 `;
 export const Tbody = styled.td`
   padding: 5px;
+  font-size: 12px;
 `;
